@@ -1,0 +1,31 @@
+{
+  "name": "secret-octo-robot",
+  "version": "1.0.0",
+  "description": "This is connected to heroku app",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adilima/secret-octo-robot.git"
+  },
+  "keywords": [
+    "heroku",
+    "vanish",
+    "node",
+    "postgres"
+  ],
+  "author": "adi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adilima/secret-octo-robot/issues"
+  },
+  "homepage": "https://github.com/adilima/secret-octo-robot#readme",
+  "dependencies": {
+    "ejs": "^2.5.6",
+    "express": "^4.14.1",
+    "express-generator": "^4.14.1",
+    "pg": "^6.1.2"
+  }
+}
